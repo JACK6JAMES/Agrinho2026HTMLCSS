@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" role="img" aria-labelledby="title desc">
+  <title id="title">Logo Agro</title>
+  <desc id="desc">Ícone circular com folha, broto e linhas de plantio.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00695C"/>
+      <stop offset="100%" stop-color="#4DD0E1"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="30" cy="30" r="28" fill="url(#bg)"/>
+  <circle cx="30" cy="30" r="28" fill="none" stroke="#004D40" stroke-width="2"/>
+
+  <!-- Linhas de plantio -->
+  <path d="M11 42 C20 37, 40 37, 49 42" fill="none" stroke="#DDFBFC" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M14 47 C23 42, 37 42, 46 47" fill="none" stroke="#DDFBFC" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Caule -->
+  <path d="M30 39 C30 31, 29 24, 31 17" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Folha esquerda -->
+  <path d="M29 29 C20 29, 16 23, 17 17 C24 17, 29 21, 29 29 Z" fill="#FFFFFF"/>
+  <path d="M19 19 C23 22, 26 25, 29 29" fill="none" stroke="#B2EBF2" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- Folha direita -->
+  <path d="M31 24 C32 16, 38 12, 44 13 C44 20, 39 24, 31 24 Z" fill="#E0F7FA"/>
+  <path d="M42 15 C38 18, 35 21, 31 24" fill="none" stroke="#80DEEA" stroke-width="1.4" stroke-linecap="round"/>
+</svg>
